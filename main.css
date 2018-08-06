@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    /*The box-sizing property is used to tell the browser what the sizing properties (width and height) should include border-box.*/
+    box-sizing: border-box;
+    /*reset Chrome user agent styles*/
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-before: 0px;
+    -webkit-padding-after: 0px;
+    -webkit-padding-start: 0px;
+    -webkit-padding-end: 0px;
+}
+
+body {
+    font-size: 16px;
+    /* height: 100%; */
+}
+
+aside {
+    background-color: gray;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 20%;
+}
+
+nav {
+    height: 100%;
+}
+
+nav h3 {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 25px;
+}
+
+nav ul {
+    text-align: right;
+    margin-top: 20%;
+    margin-right: 20px;
+}
+
+nav ul li {
+    margin-top: 15px;
+}
+
+main {
+    background-color: lightgray;
+    display: block;
+    float: right;
+    height: 100%;
+    width: 80%;
+}
+
+header {
+    background-color: lightgray;
+    font-size: 0px;
+    text-align: center;
+}
+
+.container {
+    /* padding-bottom: 50px; */
+}
+
+header h1 {
+    font-size: 25px;
+}
+
+header h2 {
+    font-size: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+.half {
+    width: 50%;
+    display: inline-block;
+}
+
+.text {
+    vertical-align: top;
+    padding-top: 15%;
+}
